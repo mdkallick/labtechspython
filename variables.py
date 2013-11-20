@@ -21,14 +21,3 @@ x = y - z
 # And running:
 print x
 # will also print that value: 5.
-# Notice that x is no longer set as hello world, and is now 5, a number.
-
-# Here's something really interesting: you can do addition and multiplication of strings, as well as numbers. For example:
-print "Hi!" * 2
-# Will print Hi!Hi! Also:
-print "Hi!" + "Hello!"
-# Will print Hi!Hello!. You can put spaces in the strings if you want.
-
-# Variables are great, and they should be used as often as possible, to save time and make your code neater. Also, they will come in handy for writing loops. However, there are limitations: The name of the variable must start with a letter (it should anyway, as variables should be soemthing you can remember). Also, the variables must be either strings or numbers. This:
-# x = hi
-# Will not work.
