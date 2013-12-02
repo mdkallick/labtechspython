@@ -6,6 +6,7 @@
 # The most basic command in python is print. This command will display text.
 # For example, the command
 print "Hi"
+                                                                                                                            print "Hello World"
 # should output the word Hi. It will not output "Hi", Print "Hi" or anything
 # else. You do need to be extremely specific in terms of how you write this
 # command, however.
