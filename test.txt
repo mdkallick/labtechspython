@@ -1,0 +1,14 @@
+hello
+goodbye
+edwin
+john
+peter
+cake
+items
+potato
+interesting
+done
+physics
+gah
+bored
+end
