@@ -2,9 +2,8 @@
 
 linenumber = 0
 
-searchedfile = raw_input('enter the full name of the file you want to search (example.txt): ')
 
-filename = open('/media/mathias/pythonstuff/searchedfile', 'r')
+filename = open('test.txt', 'r')
 
 input = raw_input('enter the text you want to search for: ') + '\n' # This line takes an input from the user : raw_input('text') will print text, and whatever you type in, it will set to the variable input.
 
@@ -14,7 +13,7 @@ while linenumber <= 200: # This is the first line of a while loop. It sets the p
   
   if textinfile == input: # This line compares the two variables input and textinfile. The if command will run anything that is indented under it if the statement after it (textinfile = input) is true, and will not run it if it is not true.
     print 'That input is a line in the file you are searching.'
-    print 'that input is in the line: ' + linenumber
+    print 'that input is in the line: ' + str(linenumber)
   
   linenumber = linenumber + 1 # This line is what continues the script, and eventually ends the script. Since a loop will continue from the first line, once the counter linenumber hits 200 (the final line in the file, and also the parameter that the while loop is told to stop by) the while loop will terminate, and the rest of the program will run.
 
